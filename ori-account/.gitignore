@@ -1,0 +1,25 @@
+# HarmonyOS build
+build/
+.hvigor/cache/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Dependencies
+oh_modules/
+
+# Build wrapper
+hvigorw
+hvigorw.bat
+
+# Local config
+.local/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
