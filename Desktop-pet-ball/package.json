@@ -1,0 +1,13 @@
+{
+  "name": "desktoppetball",
+  "version": "1.0.0",
+  "description": "桌面宠物球应用",
+  "main": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hvigor": "6.0.2",
+    "@ohos/hvigor-ohos-plugin": "6.0.2"
+  }
+}

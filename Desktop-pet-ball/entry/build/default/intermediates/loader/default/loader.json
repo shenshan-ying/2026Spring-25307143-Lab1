@@ -1,0 +1,26 @@
+{
+  "modulePathMap": {
+    "entry": "D:\\ClassWork\\Desktop-pet-ball\\entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "D:\\ClassWork\\Desktop-pet-ball",
+  "nodeModulesPath": "D:\\ClassWork\\Desktop-pet-ball\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "entry",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "updateVersionInfo": {},
+  "customizedHar": false,
+  "anBuildOutPut": "D:\\ClassWork\\Desktop-pet-ball\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "patchConfig": {
+    "changedFileList": "D:\\ClassWork\\Desktop-pet-ball\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+  }
+}
