@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "continue_data",
+      "value": "Migration Data"
+    },
+    {
+      "name": "continue_data_placeholder",
+      "value": "Migration Data"
+    },
+    {
+      "name": "continue_switch",
+      "value": "Continuation Switch"
+    },
+    {
+      "name": "continue_exit_after_migration",
+      "value": "Exit After Migration"
+    },
+    {
+      "name": "navigation_stack_migration_settings",
+      "value": "Navigation Stack Migration Settings"
+    },
+    {
+      "name": "router_stack_migration_settings",
+      "value": "Router Stack Migration Settings"
+    },
+    {
+      "name": "if_migrate_navigation_stack",
+      "value": "Migrate Navigation Stack"
+    },
+    {
+      "name": "if_migrate_router_stack",
+      "value": "Migrate Router Stack"
+    },
+    {
+      "name": "app_continuation_settings",
+      "value": "App Continuation Settings"
+    },
+    {
+      "name": "ability_a_continue_data",
+      "value": "AbilityA Migration Data"
+    },
+    {
+      "name": "game_entry",
+      "value": "🎮 Space Fighter"
+    },
+    {
+      "name": "game_start",
+      "value": "Start Game"
+    }
+  ]
+}

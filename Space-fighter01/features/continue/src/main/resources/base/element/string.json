@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "continue_data",
+      "value": "迁移数据"
+    },
+    {
+      "name": "continue_data_placeholder",
+      "value": "迁移数据"
+    },
+    {
+      "name": "continue_switch",
+      "value": "迁移能力开关"
+    },
+    {
+      "name": "continue_exit_after_migration",
+      "value": "迁移后是否退出"
+    },
+    {
+      "name": "navigation_stack_migration_settings",
+      "value": "Navigation页面栈迁移设置"
+    },
+    {
+      "name": "router_stack_migration_settings",
+      "value": "Router页面栈迁移设置"
+    },
+    {
+      "name": "if_migrate_navigation_stack",
+      "value": "是否迁移Navigation页面栈"
+    },
+    {
+      "name": "if_migrate_router_stack",
+      "value": "是否迁移Router页面栈"
+    },
+    {
+      "name": "app_continuation_settings",
+      "value": "应用接续设置"
+    },
+    {
+      "name": "ability_a_continue_data",
+      "value": "AbilityA迁移数据"
+    },
+    {
+      "name": "game_entry",
+      "value": "🎮 飞行战机"
+    },
+    {
+      "name": "game_start",
+      "value": "开始游戏"
+    }
+  ]
+}

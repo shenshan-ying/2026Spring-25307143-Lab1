@@ -1,0 +1,82 @@
+// [Start continue1]
+// [Start continue5]
+{
+  "module": {
+    // [StartExclude continue1]
+    // [StartExclude continue5]
+    "name": "phone",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "reason": "$string:distributed_data_sync_reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ],
+    // [EndExclude continue1]
+    // [EndExclude continue5]
+    "abilities": [
+      {
+        // [StartExclude continue1]
+        // [StartExclude continue5]
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "ohos.want.action.home"
+            ]
+          }
+        ],
+        // [EndExclude continue1]
+        // [EndExclude continue5]
+        "continuable": true,
+        // [StartExclude continue1]
+        "continueType": ['continueType1'],
+        // [EndExclude continue1]
+      }
+    ],
+    // [StartExclude continue1]
+    // [StartExclude continue5]
+    "extensionAbilities": [
+      {
+        "name": "EntryBackupAbility",
+        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ]
+      }
+    ]
+    // [EndExclude continue1]
+    // [EndExclude continue5]
+  }
+}
+// [End continue1]
+// [End continue5]

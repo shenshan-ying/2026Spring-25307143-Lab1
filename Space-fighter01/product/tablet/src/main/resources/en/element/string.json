@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "AbilityA_desc",
+      "value": "description"
+    },
+    {
+      "name": "AbilityA_label",
+      "value": "label"
+    },
+    {
+      "name": "router_stack_migration_settings",
+      "value": "Router Stack Migration Settings"
+    },
+    {
+      "name": "if_migrate_router_stack",
+      "value": "Migrate Router Stack"
+    }
+  ]
+}

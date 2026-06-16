@@ -1,0 +1,73 @@
+// [Start continue6]
+{
+  "module": {
+    // [StartExclude continue6]
+    "name": "tablet",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "AbilityA",
+    "deviceTypes": [
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "reason": "$string:distributed_data_sync_reason",
+        "usedScene": {
+          "abilities": [
+            "AbilityA"
+          ],
+          "when": "inuse"
+        }
+      }
+    ],
+    // [EndExclude continue6]
+    "abilities": [
+      {
+        // [StartExclude continue6]
+        "name": "AbilityA",
+        "srcEntry": "./ets/abilitya/AbilityA.ets",
+        "description": "$string:AbilityA_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:AbilityA_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "ohos.want.action.home"
+            ]
+          }
+        ],
+        // [EndExclude continue6]
+        "continuable": true,
+        "continueType": ['continueType1']
+      }
+    ],
+    // [StartExclude continue6]
+    "extensionAbilities": [
+      {
+        "name": "ApplicationBackupAbility",
+        "srcEntry": "./ets/applicationbackupability/ApplicationBackupAbility.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ]
+      }
+    ],
+    // [EndExclude continue6]
+  }
+}
+// [End continue6]

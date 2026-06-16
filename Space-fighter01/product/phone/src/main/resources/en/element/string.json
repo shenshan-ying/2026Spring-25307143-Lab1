@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "ContinuationBasics"
+    },
+    {
+      "name": "AbilityA_desc",
+      "value": "description"
+    },
+    {
+      "name": "AbilityA_label",
+      "value": "label"
+    },
+    {
+      "name": "router_stack_migration_settings",
+      "value": "Router Stack Migration Settings"
+    },
+    {
+      "name": "if_migrate_router_stack",
+      "value": "Migrate Router Stack"
+    }
+  ]
+}

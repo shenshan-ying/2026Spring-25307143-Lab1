@@ -1,0 +1,20 @@
+{
+  "float": [
+    {
+      "name": "page_text_font_size",
+      "value": "50fp"
+    },
+    {
+      "name": "game_btn_width",
+      "value": "44vp"
+    },
+    {
+      "name": "game_btn_height",
+      "value": "44vp"
+    },
+    {
+      "name": "game_card_height",
+      "value": "120vp"
+    }
+  ]
+}
